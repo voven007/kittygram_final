@@ -24,7 +24,7 @@ services:
     volumes:
       - static:/staticfiles/
   gateway:
-    image: vababenko/kittygram_nginx
+    image: vababenko/kittygram_gateway
     ports:
       - 9000:80
     volumes:
