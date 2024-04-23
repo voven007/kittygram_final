@@ -25,6 +25,7 @@ services:
       - static:/staticfiles/
   gateway:
     image: vababenko/kittygram_gateway
+    env_file: .env
     ports:
       - 9000:80
     volumes:
