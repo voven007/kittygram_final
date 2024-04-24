@@ -62,8 +62,6 @@ DATABASES = {
         'PASSWORD': os.getenv('POSTGRES_PASSWORD', ''),
         'DB_HOST': os.getenv('DB_HOST', ''),
         'DB_PORT': os.getenv('DB_PORT', 5432)
-        'SECRET_KEY' = os.getenv['SECRET_KEY']
-
     }
 }
 
